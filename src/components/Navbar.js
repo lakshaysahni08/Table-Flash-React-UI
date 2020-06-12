@@ -6,7 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "font-awesome/css/font-awesome.min.css";
 import { faHome, faUtensilSpoon } from "@fortawesome/free-solid-svg-icons";
 
-class N extends Component {
+// Handles the dashboard and its components
+
+class Navbar1 extends Component {
   render() {
     return (
       <Nav
@@ -24,4 +26,4 @@ class N extends Component {
   }
 }
 
-export default N;
+export default Navbar1;

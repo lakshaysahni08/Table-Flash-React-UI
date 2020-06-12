@@ -4,6 +4,8 @@ import React, { Component } from "react";
 import "./Tables.css";
 import AddTables from "./AddTables";
 
+// Handles the Tables tab in the dashboard
+
 class Tables extends Component {
   render() {
     return (

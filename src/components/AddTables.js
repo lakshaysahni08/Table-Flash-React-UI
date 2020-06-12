@@ -2,22 +2,12 @@ import React, { Component } from "react";
 import { Button, Modal, Form, Col, ButtonGroup } from "react-bootstrap";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import CounterInput from "react-bootstrap-personalized-counter";
 import "font-awesome/css/font-awesome.min.css";
 import "./AddTables.css";
-import NewTable from "./NewTable";
-import Try from "./try";
 import { faPlusCircle, faMinusCircle } from "@fortawesome/free-solid-svg-icons";
-import { Rectangle } from "react-shapes";
 import "react-placeholder/lib/reactPlaceholder.css";
-import {
-  TextBlock,
-  MediaBlock,
-  TextRow,
-  RectShape,
-  RoundShape,
-} from "react-placeholder/lib/placeholders";
 
+// Handles the add table button and table details of availabe and new tables.
 class AddTables extends Component {
   constructor(props, context) {
     super(props, context);
@@ -35,20 +25,20 @@ class AddTables extends Component {
       modal: false,
     };
   }
-
+  // To handle the counter and keep track of values
   decrease = () => {
     this.setState({ value: this.state.value - 1 });
   };
-
+  // To handle the counter and keep track of values
   increase = () => {
     this.setState({ value: this.state.value + 1 });
   };
-
+  // handles opening and closing of the table details modal
   modal = () => {
     const table = this.state.modal;
     this.setState({ modal: !table });
   };
-
+  // To get values like length and width and update them in state
   getValue = (values, event) => {
     console.log(event.target.value);
     let currentVal = event.target.value;
@@ -57,7 +47,7 @@ class AddTables extends Component {
       arr[values] = currentVal;
     });
   };
-
+  // closes modals
   handleClose() {
     this.setState({ show: false, modal: false });
   }
@@ -65,6 +55,7 @@ class AddTables extends Component {
   handleShow() {
     this.setState({ show: true });
   }
+  // changes stateb of the class when called
   changeState = () => {
     console.log("Hi");
     const current = this.state.active;
@@ -72,6 +63,7 @@ class AddTables extends Component {
 
     this.modal();
   };
+  // submits the add table form and fetched all the submitted values
   submitForm = (e) => {
     const current = this.state.table;
     this.setState({ table: true });
