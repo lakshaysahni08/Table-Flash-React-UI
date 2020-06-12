@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 20%;
+  display: inline-block;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-top: 7.5vh;
+  background-color: #001629;
+}
+.item {
+  margin-top: 2vh;
+  font-size: 1.5rem;
+  text-align: left;
+  color: lightgray;
+  font-family: "Raleway";
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.img {
+  margin-right: 4%;
+}
+
+a:hover {
+  background: #1da67b;
+  color: white;
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+.heading {
+  color: lightgray;
+  font-size: 2rem;
+}

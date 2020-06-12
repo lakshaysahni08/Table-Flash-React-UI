@@ -1,0 +1,27 @@
+.tabs {
+  position: fixed;
+  width: 65%;
+  left: 25%;
+}
+
+.head {
+  color: black;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+hr {
+  position: fixed;
+  left: 25%;
+  width: 10%;
+  top: 5.3%;
+}
+
+p:hover {
+  color: green;
+  border-bottom: 2px solid green;
+}
