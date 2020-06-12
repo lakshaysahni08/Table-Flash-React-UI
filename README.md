@@ -25,6 +25,9 @@ You will also see any lint errors in the console.
 
 ![](ScreenShotb.png)
 
+### New table added in tables tab
+![](ScreenShot2.png)
+
 ### Table details for existing tables:
 
 ![](ScreenShot3.png)
