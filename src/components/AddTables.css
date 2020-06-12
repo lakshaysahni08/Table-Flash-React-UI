@@ -28,79 +28,14 @@
   display: block;
   background: white;
 }
-/*
-.number-input Form.Control[type="number"] {
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  appearance: textfield;
-}
-.number-input Form.Control[type="number"]::-webkit-inner-spin-button,
-.number-input Form.Control[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-.number-input {
-  margin-bottom: 3rem;
-  display: inline-block;
-}
-.number-input Button {
-  -webkit-appearance: none;
-  background-color: transparent;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  margin: 0;
-  position: relative;
-}
-.number-input Button:before,
-.number-input Button:after {
-  display: inline-block;
-  position: absolute;
-  content: "";
-  height: 2px;
-  transform: translate(-50%, -50%);
-}
-.number-input Button.plus:after {
-  transform: translate(-50%, -50%) rotate(90deg);
-}
-.number-input Form.Control[type="number"] {
-  text-align: center;
-}
-.number-input.number-input {
-  border: 1px solid #ced4da;
-  width: 10rem;
-  border-radius: 0.25rem;
-}
-.number-input.number-input Button {
-  width: 2.6rem;
-  height: 0.7rem;
-}
-.number-input.number-input Button.minus {
-  padding-left: 10px;
-}
-.number-input.number-input Button:before,
-.number-input.number-input Button:after {
-  width: 0.7rem;
-  background-color: #495057;
-}
-.number-input.number-input Form.Control[type="number"] {
-  max-width: 4rem;
-  padding: 0.5rem;
-  border: 1px solid #ced4da;
-  border-width: 0 1px;
-  font-size: 1rem;
-  height: 2rem;
-  color: #495057;
-}
-*/
 .t1 {
   position: fixed;
   left: 45%;
   margin-top: 10%;
   margin-left: 0;
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border: 2px solid black;
   border-radius: 25%;
   background: white;
@@ -108,12 +43,12 @@
 
 .t2 {
   position: fixed;
-  left: 70%;
+  left: 60%;
   margin-top: 10%;
   margin-left: 0;
   display: block;
   width: 500px;
-  height: 200px;
+  height: 180px;
   border: 2px solid black;
   border-radius: 40px;
   background: white;
