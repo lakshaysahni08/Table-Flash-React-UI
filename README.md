@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Clone down this repository. You will need node and npm installed globally on your machine.
+
 In the project directory, you can run:
 
 ### `npm install`
