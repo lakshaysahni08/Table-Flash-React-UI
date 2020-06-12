@@ -1,4 +1,3 @@
-
 ## Table Flash
 
 Clone down this repository. You will need node and npm installed globally on your machine.
@@ -19,15 +18,16 @@ You will also see any lint errors in the console.
 
 ### Table tab:
 
-![](ScreenShot1.png)
+![](ScreenShots/ScreenShot1.png)
 
 ### Add table modal:
 
-![](ScreenShotb.png)
+![](ScreenShots/ScreenShotb.png)
 
 ### New table added in tables tab
-![](ScreenShot2.png)
+
+![](ScreenShots/ScreenShot2.png)
 
 ### Table details for existing tables:
 
-![](ScreenShot3.png)
+![](ScreenShots/ScreenShot3.png)
